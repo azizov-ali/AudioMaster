@@ -7,44 +7,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./src/css/style.css">
-    <link
-            rel="stylesheet"
-            href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
 
-    <header class="head">
-        <div class="head__top">
-            <div class="container">
-                <div class="row_top">
-                    <ul class="header__list">
-                        <li>
-                            <a href="" class="header-link">Доставка</a></li>
-                        <li>
-                            <a href="" class="header-link">Оплата</a></li>
+<header class="head" 1>
+    <div class="head__top">
+        <div class="container">
+            <div class="row_top">
+                <ul class="header__list" >
+                    <li>
+                        <a href="" class="header-link" >Доставка</a></li>
+                    <li>
+                        <a href="" class="header-link">Оплата</a></li>
 
-                        <li>
-                            <a href="" class="header-link">Контакты</a> </li>
-                        <li>
-                            <a href="" class="header-link">Новости</a></li>
-                        <li>
-                            <a href="" class="header-link">Установка</a></li>
-                    </ul>
+                    <li>
+                        <a href="" class="header-link">Контакты</a></li>
+                    <li>
+                        <a href="" class="header-link">Новости</a></li>
+                    <li>
+                        <a href="" class="header-link">Установка</a></li>
+                </ul>
 
-                    <div class="contact">
-                        <img class="contact__img" src="./src/images/header/whatsapp.png" alt="whatsapp">
-                        <a class="contact__item" href="#">WhatsApp</a>
-                        <img class="contact__img" src="./src/images/header/tel.png" alt="">
-                        <a class="contact__item" href="#">+996 555 055 999</a>
-                    </div>
-                    <div>
-                        <button class="header-btn" type="button">Обратный звонок</button>
-                    </div>
+                <div class="contact">
+                    <img class="contact__img" src="./src/images/header/whatsapp.png" alt="whatsapp">
+                    <a class="contact__item header-link" target="_blank" href="https://www.whatsapp.com/">WhatsApp</a>
+                    <img class="contact__img" src="./src/images/header/tel.png" alt="">
+                    <a class="contact__item header-link" href="tel:+996 555 055 999">+996 555 055 999</a>
                 </div>
-
+                <div class="header__btns">
+                    <button class="header-btn header-btn1" type="button">Вход</button>
+                    <button class="header-btn header-btn2" type="button">Регистрация</button>
+                </div>
             </div>
+
         </div>
+    </div>
 
         <div class="head__bottom">
             <div class="container">
@@ -71,9 +69,7 @@
                         </svg>
                         <h3 class="catalog-text">Каталог</h3>
                     </div>
-                    <div>
-                        <input class="search" type="text">
-                    </div>
+
                     <ul class="menu-list">
                         <li class="menu-item">
 
@@ -81,359 +77,650 @@
                                     <path d="M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20ZM10 18C11.0506 18 12.091 17.7931 13.0617 17.391C14.0323 16.9889 14.9143 16.3996 15.6572 15.6567C16.4001 14.9138 16.9894 14.0318 17.3915 13.0612C17.7936 12.0905 18.0005 11.0501 18.0005 9.9995C18.0005 8.94886 17.7936 7.90851 17.3915 6.93784C16.9894 5.96718 16.4001 5.08521 15.6572 4.34229C14.9143 3.59938 14.0323 3.01006 13.0617 2.608C12.091 2.20594 11.0506 1.999 10 1.999C7.87814 1.999 5.84318 2.84191 4.34279 4.34229C2.84241 5.84268 1.9995 7.87764 1.9995 9.9995C1.9995 12.1214 2.84241 14.1563 4.34279 15.6567C5.84318 17.1571 7.87814 18 10 18V18ZM11 10H15V12H9V5H11V10Z" fill="#FFFEFE"/>
                                 </svg>
 
-                            <p class="menu-text">Статус заказа</p>
+                        <p class="menu-text">Статус заказа</p>
+                    </li>
+                    <li class="menu-item">
+
+                        <svg class="menu-svg" width="16" height="21" viewBox="0 0 16 21" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 21C0 18.8783 0.842855 16.8434 2.34315 15.3431C3.84344 13.8429 5.87827 13 8 13C10.1217 13 12.1566 13.8429 13.6569 15.3431C15.1571 16.8434 16 18.8783 16 21H14C14 20.2121 13.8448 19.4319 13.5433 18.7039C13.2417 17.9759 12.7998 17.3145 12.2426 16.7574C11.6855 16.2002 11.0241 15.7583 10.2961 15.4567C9.56815 15.1552 8.78793 15 8 15C7.21207 15 6.43185 15.1552 5.7039 15.4567C4.97595 15.7583 4.31451 16.2002 3.75736 16.7574C3.20021 17.3145 2.75825 17.9759 2.45672 18.7039C2.15519 19.4319 2 20.2121 2 21H0ZM8 12C4.685 12 2 9.315 2 6C2 2.685 4.685 0 8 0C11.315 0 14 2.685 14 6C14 9.315 11.315 12 8 12ZM8 10C10.21 10 12 8.21 12 6C12 3.79 10.21 2 8 2C5.79 2 4 3.79 4 6C4 8.21 5.79 10 8 10Z"
+                                  fill="#FFFEFE"/>
+                        </svg>
+                        <p class="menu-text">Войти</p>
+                    </li>
+                    <li class="menu-item">
+                        <div>
+                            <svg class="menu-svg" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 6H2V18H0V6ZM6 0H8V18H6V0ZM12 9H14V18H12V9ZM18 3H20V18H18V3Z"
+                                      fill="#FFFEFE"/>
+                            </svg>
+                        </div>
+                        <p class="menu-text">Сравнение</p>
+                    </li>
+                    <li class="menu-item">
+
+                        <svg class="menu-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.5 3C19.538 3 22 5.5 22 9C22 16 14.5 20 12 21.5C9.5 20 2 16 2 9C2 5.5 4.5 3 7.5 3C9.36 3 11 4 12 5C13 4 14.64 3 16.5 3ZM12.934 18.604C13.7712 18.0817 14.5791 17.5139 15.354 16.903C18.335 14.533 20 11.943 20 9C20 6.64 18.463 5 16.5 5C15.424 5 14.26 5.57 13.414 6.414L12 7.828L10.586 6.414C9.74 5.57 8.576 5 7.5 5C5.56 5 4 6.656 4 9C4 11.944 5.666 14.533 8.645 16.903C9.39 17.495 10.185 18.048 11.066 18.603C11.365 18.792 11.661 18.973 12 19.175C12.339 18.973 12.635 18.792 12.934 18.604Z"
+                                  fill="#FFFEFE"/>
+                        </svg>
+
+                        <p class="menu-text">Избранное</p>
+
+                    </li>
+                    <li class="menu-item">
+
+                        <svg class="menu-svg-1" width="31" height="25" viewBox="0 0 31 25" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_24_576)">
+                                <path d="M4.00002 8.41408L0.757019 5.17208L2.17202 3.75708L5.41402 7.00008H20.656C20.8119 7.00007 20.9656 7.03649 21.1049 7.10645C21.2442 7.1764 21.3652 7.27794 21.4583 7.40298C21.5513 7.52801 21.6139 7.67306 21.6409 7.82657C21.668 7.98007 21.6588 8.13777 21.614 8.28708L19.214 16.2871C19.1523 16.4932 19.0257 16.6738 18.8531 16.8023C18.6806 16.9307 18.4712 17.0001 18.256 17.0001H6.00002V19.0001H17V21.0001H5.00002C4.7348 21.0001 4.48045 20.8947 4.29291 20.7072C4.10538 20.5197 4.00002 20.2653 4.00002 20.0001V8.41408ZM6.00002 9.00008V15.0001H17.512L19.312 9.00008H6.00002ZM5.50002 25.0001C5.10219 25.0001 4.72066 24.842 4.43936 24.5607C4.15805 24.2794 4.00002 23.8979 4.00002 23.5001C4.00002 23.1023 4.15805 22.7207 4.43936 22.4394C4.72066 22.1581 5.10219 22.0001 5.50002 22.0001C5.89784 22.0001 6.27938 22.1581 6.56068 22.4394C6.84198 22.7207 7.00002 23.1023 7.00002 23.5001C7.00002 23.8979 6.84198 24.2794 6.56068 24.5607C6.27938 24.842 5.89784 25.0001 5.50002 25.0001ZM17.5 25.0001C17.1022 25.0001 16.7207 24.842 16.4394 24.5607C16.1581 24.2794 16 23.8979 16 23.5001C16 23.1023 16.1581 22.7207 16.4394 22.4394C16.7207 22.1581 17.1022 22.0001 17.5 22.0001C17.8978 22.0001 18.2794 22.1581 18.5607 22.4394C18.842 22.7207 19 23.1023 19 23.5001C19 23.8979 18.842 24.2794 18.5607 24.5607C18.2794 24.842 17.8978 25.0001 17.5 25.0001Z"
+                                      fill="#ffffff"/>
+                            </g>
+                            <path d="M12 8.5C12 3.80558 15.8056 0 20.5 0H22.5C27.1944 0 31 3.80558 31 8.5C31 13.1944 27.1944 17 22.5 17H20.5C15.8056 17 12 13.1944 12 8.5Z"
+                                  fill="#FBAA00"/>
+                            <path class="path"
+                                  d="M24.204 11.968C23.628 12.76 22.82 13.156 21.78 13.156C20.748 13.156 19.936 12.76 19.344 11.968C18.768 11.176 18.48 10.12 18.48 8.8C18.48 7.48 18.768 6.424 19.344 5.632C19.936 4.84 20.748 4.444 21.78 4.444C22.82 4.444 23.628 4.84 24.204 5.632C24.788 6.416 25.08 7.472 25.08 8.8C25.08 10.128 24.788 11.184 24.204 11.968ZM21.78 11.812C22.404 11.812 22.88 11.552 23.208 11.032C23.536 10.512 23.7 9.768 23.7 8.8C23.7 7.832 23.536 7.088 23.208 6.568C22.88 6.048 22.404 5.788 21.78 5.788C21.164 5.788 20.688 6.048 20.352 6.568C20.024 7.088 19.86 7.832 19.86 8.8C19.86 9.768 20.024 10.512 20.352 11.032C20.688 11.552 21.164 11.812 21.78 11.812Z"
+                                  fill="#ffffff"/>
+                            <defs>
+                                <clipPath id="clip0_24_576">
+                                    <rect width="22" height="22" fill="white" transform="translate(0 3)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                        <p class="menu-text">Корзина</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+    <section>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="src/images/slider/slider_title.png" alt="">
+                    <div class="slider-text">
+                        <h1 class="slider__title">
+                            AudioMaster - студия <br class="br">
+                            автозвука
+                        </h1>
+                        <p class="slider__subtitle">
+                            Мы-лучшие в вопросе подбора аудиокомпонентов <br>
+                            для вашего авто.  Наши мастера - эксперты в своем <br>
+                            деле, и соберут любой комплект под ваш запрос
+                        </p>
+                        <button class="title_btn" type="button">Выбрать автозвук</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="src/images/slider/slider_title.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="src/images/slider/slider_title.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <section style="background-color: #292929; color: #F0F0F0; font-size: 20px;">
+        <div class="container">
+            <div class="info">
+                <div class="info__item">
+                    <img src="./src/images/info/garant.png" alt="">
+                    <p>
+                        Гарантия на доставку <br>
+                        и качество товара
+                    </p>
+                </div>
+                <div class="info__item">
+                    <img src="./src/images/info/sett.png" alt="">
+                    <p>
+                        Установка всех компонентов <br>
+                        в нашей мастерской в Казани
+                    </p>
+                </div>
+                <div class="info__item">
+                    <img src="./src/images/info/info_3.png" alt="">
+                    <p>
+                        Большой выбор вариантов <br>
+                        оплаты и покупки в рассрочку
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="product">
+        <div class="container">
+            <h2 class="product_title">Выбрать автозвук и аудиокомпотенты для любого авто</h2>
+            <div class="products">
+                <div class="product_list">
+                    <h3 class="product_subtitle">Популярные</h3>
+                    <ul>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
                         </li>
-                        <li class="menu-item">
-
-                            <svg class="menu-svg" width="16" height="21" viewBox="0 0 16 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 21C0 18.8783 0.842855 16.8434 2.34315 15.3431C3.84344 13.8429 5.87827 13 8 13C10.1217 13 12.1566 13.8429 13.6569 15.3431C15.1571 16.8434 16 18.8783 16 21H14C14 20.2121 13.8448 19.4319 13.5433 18.7039C13.2417 17.9759 12.7998 17.3145 12.2426 16.7574C11.6855 16.2002 11.0241 15.7583 10.2961 15.4567C9.56815 15.1552 8.78793 15 8 15C7.21207 15 6.43185 15.1552 5.7039 15.4567C4.97595 15.7583 4.31451 16.2002 3.75736 16.7574C3.20021 17.3145 2.75825 17.9759 2.45672 18.7039C2.15519 19.4319 2 20.2121 2 21H0ZM8 12C4.685 12 2 9.315 2 6C2 2.685 4.685 0 8 0C11.315 0 14 2.685 14 6C14 9.315 11.315 12 8 12ZM8 10C10.21 10 12 8.21 12 6C12 3.79 10.21 2 8 2C5.79 2 4 3.79 4 6C4 8.21 5.79 10 8 10Z" fill="#FFFEFE"/>
-                                </svg>
-                            <p class="menu-text">Войти</p>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
                         </li>
-                        <li class="menu-item">
-                            <div >
-                                <svg class="menu-svg" width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 6H2V18H0V6ZM6 0H8V18H6V0ZM12 9H14V18H12V9ZM18 3H20V18H18V3Z" fill="#FFFEFE"/>
-                                </svg>
-                            </div>
-                                <p class="menu-text">Сравнение</p>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
                         </li>
-                        <li class="menu-item">
-
-                            <svg class="menu-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16.5 3C19.538 3 22 5.5 22 9C22 16 14.5 20 12 21.5C9.5 20 2 16 2 9C2 5.5 4.5 3 7.5 3C9.36 3 11 4 12 5C13 4 14.64 3 16.5 3ZM12.934 18.604C13.7712 18.0817 14.5791 17.5139 15.354 16.903C18.335 14.533 20 11.943 20 9C20 6.64 18.463 5 16.5 5C15.424 5 14.26 5.57 13.414 6.414L12 7.828L10.586 6.414C9.74 5.57 8.576 5 7.5 5C5.56 5 4 6.656 4 9C4 11.944 5.666 14.533 8.645 16.903C9.39 17.495 10.185 18.048 11.066 18.603C11.365 18.792 11.661 18.973 12 19.175C12.339 18.973 12.635 18.792 12.934 18.604Z" fill="#FFFEFE"/>
-                                </svg>
-
-                            <p class="menu-text" >Избранное</p>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
+                        </li>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
+                        </li>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product_list">
+                    <p class="product_subtitle">Бестселлеры</p>
+                    <ul>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
 
                         </li>
-                        <li class="menu-item">
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
+                        </li>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
+                        </li>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
+                        </li>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
+                        </li>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
+                        </li>
 
-                                <svg class="menu-svg-1" width="31" height="25" viewBox="0 0 31 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_24_576)">
-                                        <path d="M4.00002 8.41408L0.757019 5.17208L2.17202 3.75708L5.41402 7.00008H20.656C20.8119 7.00007 20.9656 7.03649 21.1049 7.10645C21.2442 7.1764 21.3652 7.27794 21.4583 7.40298C21.5513 7.52801 21.6139 7.67306 21.6409 7.82657C21.668 7.98007 21.6588 8.13777 21.614 8.28708L19.214 16.2871C19.1523 16.4932 19.0257 16.6738 18.8531 16.8023C18.6806 16.9307 18.4712 17.0001 18.256 17.0001H6.00002V19.0001H17V21.0001H5.00002C4.7348 21.0001 4.48045 20.8947 4.29291 20.7072C4.10538 20.5197 4.00002 20.2653 4.00002 20.0001V8.41408ZM6.00002 9.00008V15.0001H17.512L19.312 9.00008H6.00002ZM5.50002 25.0001C5.10219 25.0001 4.72066 24.842 4.43936 24.5607C4.15805 24.2794 4.00002 23.8979 4.00002 23.5001C4.00002 23.1023 4.15805 22.7207 4.43936 22.4394C4.72066 22.1581 5.10219 22.0001 5.50002 22.0001C5.89784 22.0001 6.27938 22.1581 6.56068 22.4394C6.84198 22.7207 7.00002 23.1023 7.00002 23.5001C7.00002 23.8979 6.84198 24.2794 6.56068 24.5607C6.27938 24.842 5.89784 25.0001 5.50002 25.0001ZM17.5 25.0001C17.1022 25.0001 16.7207 24.842 16.4394 24.5607C16.1581 24.2794 16 23.8979 16 23.5001C16 23.1023 16.1581 22.7207 16.4394 22.4394C16.7207 22.1581 17.1022 22.0001 17.5 22.0001C17.8978 22.0001 18.2794 22.1581 18.5607 22.4394C18.842 22.7207 19 23.1023 19 23.5001C19 23.8979 18.842 24.2794 18.5607 24.5607C18.2794 24.842 17.8978 25.0001 17.5 25.0001Z" fill="#ffffff"/>
-                                    </g>
-                                    <path d="M12 8.5C12 3.80558 15.8056 0 20.5 0H22.5C27.1944 0 31 3.80558 31 8.5C31 13.1944 27.1944 17 22.5 17H20.5C15.8056 17 12 13.1944 12 8.5Z" fill="#FBAA00"/>
-                                    <path  class="path" d="M24.204 11.968C23.628 12.76 22.82 13.156 21.78 13.156C20.748 13.156 19.936 12.76 19.344 11.968C18.768 11.176 18.48 10.12 18.48 8.8C18.48 7.48 18.768 6.424 19.344 5.632C19.936 4.84 20.748 4.444 21.78 4.444C22.82 4.444 23.628 4.84 24.204 5.632C24.788 6.416 25.08 7.472 25.08 8.8C25.08 10.128 24.788 11.184 24.204 11.968ZM21.78 11.812C22.404 11.812 22.88 11.552 23.208 11.032C23.536 10.512 23.7 9.768 23.7 8.8C23.7 7.832 23.536 7.088 23.208 6.568C22.88 6.048 22.404 5.788 21.78 5.788C21.164 5.788 20.688 6.048 20.352 6.568C20.024 7.088 19.86 7.832 19.86 8.8C19.86 9.768 20.024 10.512 20.352 11.032C20.688 11.552 21.164 11.812 21.78 11.812Z" fill="#ffffff"/>
-                                    <defs>
-                                        <clipPath id="clip0_24_576">
-                                            <rect width="22" height="22" fill="white" transform="translate(0 3)"/>
-                                        </clipPath>
-                                    </defs>
-                                </svg>
+                    </ul>
+                </div>
+                <div class="product_list">
+                    <p class="product_subtitle">Новинки</p>
+                    <ul>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
 
-                            <p class="menu-text" >Корзина</p>
+                        </li>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
+                        </li>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
+                        </li>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
+                        </li>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
+                        </li>
+                        <li class="product_link">
+                            <img src="./src/images/product/kolonki.png" alt="">
+                            <p class="product__price">
+                                <b>13 000 ₽</b> <br>
+                                Акустика Pride Diamond 10
+                            </p>
                         </li>
                     </ul>
                 </div>
             </div>
 
+
         </div>
+    </section>
 
-    </header>
-
-    <main>
-        <section>
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="src/images/slider/slider_title.png" alt="">
-                        <div class="slider-text">
-                            <h1 class="slider__title">
-                                AudioMaster - студия <br class="br">
-                                автозвука
-                            </h1>
-                            <p class="slider__subtitle">
-                                Мы-лучшие в вопросе подбора аудиокомпонентов <br>
-                                для вашего авто.  Наши мастера - эксперты в своем <br>
-                                деле, и соберут любой комплект под ваш запрос
-                            </p>
-                            <button class="title_btn" type="button">Выбрать автозвук</button>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="src/images/slider/slider_title.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="src/images/slider/slider_title.png" alt="">
-                    </div>
+    <section style="background-color: #292929">
+        <div class="container">
+            <div class="quotes">
+                <div class="quotes__img">
+                    <img src="./src/images/quotes/quotes.png" alt="">
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </section>
-
-        <section>
-            <div class="container">
-                <div class="info">
-                    <div class="info__item">
-                        <img src="./src/images/info/garant.png" alt="">
-                        <p>
-                            Гарантия на доставку <br>
-                            и качество товара
-                        </p>
-                    </div>
-                    <div class="info__item">
-                        <img src="./src/images/info/sett.png" alt="">
-                        <p>
-                            Установка всех компонентов <br>
-                            в нашей мастерской в Казани
-                        </p>
-                    </div>
-                    <div class="info__item">
-                        <img src="./src/images/info/info_3.png" alt="">
-                        <p>
-                            Большой выбор вариантов <br>
-                            оплаты и покупки в рассрочку
-                        </p>
-                    </div>
-
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <section class="product">
-            <div class="container">
-                <h2 class="product_title">Выбрать автозвук и аудиокомпотенты для любого авто</h2>
-                <div class="products">
-                    <div class="product_list">
-                        <h3 class="product_subtitle">Популярные</h3>
-                        <ul>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="product_list">
-                        <p class="product_subtitle">Бестселлеры</p>
-                        <ul>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <div class="product_list">
-                        <p class="product_subtitle">Новинки</p>
-                        <ul>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                            <li class="product_link">
-                                <img src="./src/images/product/kolonki.png" alt="">
-                                <p class="product__price">
-                                    <b>13 000 ₽</b> <br>
-                                    Акустика Pride Diamond 10
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-
-            </div>
-        </section>
-
-        <section>
-            <div class="container">
-               <div class="quotes">
-                   <div class="quotes__img">
-                       <img src="./src/images/quotes/quotes.png" alt="">
-                   </div>
-                   <div class="quotes__text">
-                       <h3 class="quotes__title">Audiomaster - эксперты в своем деле. </h3>
-                       <p class="quotes__subtitle">Все, что вы хотели узнать про автозвук, можете узнать у нас. Заказать и установить.</p>
-                   </div>
-               </div>
-                <div class="rectangle">
-                    <div class="rectangle__img">
-                        <img src="./src/images/rectangle/rectangle.png" alt="">
-                    </div>
-                    <div class="rectangle__text">
-                        <h3 class="rectangle__text__title">
-                            Как выбрать? <span class="text-ellow">Посоветуйся с экспертом!</span>
-                        </h3>
-                        <p class="rectangle__text__subtitle">
-                            Задайте вопрос нашим специалистам прямо сейчас там, <br>
-                            где вам удобно
-                        </p>
-                    </div>
-                    <div class="rectangle__icon">
-                        <img src="./src/images/rectangle/whatsapp-icon.png" alt="">
-                        <img src="./src/images/rectangle/telegram-icon.png" alt="">
-                        <img src="./src/images/rectangle/email-icon.png" alt="">
-                    </div>
-
+                <div class="quotes__text">
+                    <h3 class="quotes__title">Audiomaster - эксперты в своем деле. </h3>
+                    <p class="quotes__subtitle">Все, что вы хотели узнать про автозвук, можете узнать у нас. Заказать и
+                        установить.</p>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="container">
-
-                <div class="best">
-                    <h3 class="best_title">
-                        Лучшие<br>
-                         предложения
+            <div class="rectangle">
+                <div class="rectangle__img">
+                    <img src="./src/images/rectangle/rectangle.png" alt="">
+                </div>
+                <div class="rectangle__text">
+                    <h3 class="rectangle__text__title">
+                        Как выбрать? <span class="text-ellow">Посоветуйся с экспертом!</span>
                     </h3>
-                        <p class="best_text">
-                             У нас все продумано. Наша студия не просто показывает вам каталог с огромным <br>
-                             выбором аудиокомпонентов, но еще и заранее продумала и подобрала <br>
-                             оптимальные комплекты для разных марок авто
-                        </p>
+                    <p class="rectangle__text__subtitle">
+                        Задайте вопрос нашим специалистам прямо сейчас там, <br>
+                        где вам удобно
+                    </p>
+                </div>
+                <div class="rectangle__icon">
+                    <img src="./src/images/rectangle/whatsapp-icon.png" alt="">
+                    <img src="./src/images/rectangle/telegram-icon.png" alt="">
+                    <img src="./src/images/rectangle/email-icon.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+
+            <div class="best">
+                <h3 class="best_title">
+                    Лучшие<br>
+                    предложения
+                </h3>
+                <p class="best_text">
+                    У нас все продумано. Наша студия не просто показывает вам каталог с огромным <br>
+                    выбором аудиокомпонентов, но еще и заранее продумала и подобрала <br>
+                    оптимальные комплекты для разных марок авто
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="best-product">
+                <div class="card-product">
+
                 </div>
             </div>
-        </section>
-        <section>
-           <div class="container">
-               <div class="best-product">
-                   <div class="card-product">
+        </div>
+    </section>
 
-                   </div>
-               </div>
-           </div>
-        </section>
+    <section style="background-color: #292929">
+        <div class="container">
+            <div class="info">
 
-    </main>
+                <div class="info-img-text">
+                    <h2 class="info-title">
+                        О компании
+                    </h2>
+                    <img class="car" src="./src/images/car.png" alt="">
+                    <p class="info-text">
+                        Сегодня – это крупнейшая компания в Старом Осколе с широким <br>
+                        спектром телекоммуникационных услуг: Интернет, телефония, IP <br>
+                        телевидение, видеонаблюдение. <br>
+                        <br>
+                        Мы улучшаем качество жизни людей, предоставляя возможность <br>
+                        свободного общения в информационном сообществе. <br>
+                        Предлагаем самые современные Интернет технологии <br>
+                        наивысшего качества.
+                    </p>
+                </div>
 
-    <footer>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #292929">
+        <div class="container">
+            <div class="news">
+                <h2 class="news-title">
+                    Новости
+                </h2>
+                <div class="news-card">
+                    <div class="card">
+                        <p class="card-text">
+                            05.03.2022
+                        </p>
+                        <p class="news-info">
+                            05 марта 2022 с 17:00 до 23:00 на сети <br>
+                            интернет будут проводиться планово- <br>
+                            профилактические работы.
+                        </p>
+                        <button class="btn-more">
+                            <a class="more-text" href="">
+                                Подробнее
+                                <img class="more-icon" src="./src/images/button-arrow.png" alt="">
+                            </a>
+                        </button>
+                    </div>
+                    <div class="card">
+                        <img src="./src/images/news/card-1.png" alt="">
+                        <p class="card-text">
+                            05.03.2022
+                        </p>
+                        <p class="news-info">
+                            05 марта 2022 с 17:00 до 23:00 на сети <br>
+                            интернет будут проводиться планово- <br>
+                            профилактические работы.
+                        </p>
+                        <button class="btn-more">
+                            <a class="more-text" href="">
+                                Подробнее
+                                <img src="./src/images/button-arrow.png" alt="">
+                            </a>
+                        </button>
+                    </div>
+                    <div class="card">
+                        <img src="./src/images/news/card-1.png" alt="">
+                        <p class="card-text">
+                            05.03.2022
+                        </p>
+                        <p class="news-info">
+                            05 марта 2022 с 17:00 до 23:00 на сети <br>
+                            интернет будут проводиться планово- <br>
+                            профилактические работы.
+                        </p>
+                        <button class="btn-more">
+                            <a class="more-text" href="">
+                                Подробнее
+                                <img src="./src/images/button-arrow.png" alt="">
+                            </a>
+                        </button>
+                    </div>
+                    <div class="card">
+                        <img src="./src/images/news/card-1.png" alt="">
+                        <p class="card-text">
+                            05.03.2022
+                        </p>
+                        <p class="news-info">
+                            05 марта 2022 с 17:00 до 23:00 на сети <br>
+                            интернет будут проводиться планово- <br>
+                            профилактические работы.
+                        </p>
+                        <button class="btn-more">
+                            <a class="more-text" href="">
+                                Подробнее
+                                <img class="more-icon" src="./src/images/button-arrow.png" alt="">
+                            </a>
+                        </button>
+                    </div>
+                    <div class="card">
+                        <img src="./src/images/news/card-1.png" alt="">
+                        <p class="card-text">
+                            05.03.2022
+                        </p>
+                        <p class="news-info">
+                            05 марта 2022 с 17:00 до 23:00 на сети <br>
+                            интернет будут проводиться планово- <br>
+                            профилактические работы.
+                        </p>
+                        <button class="btn-more">
+                            <a class="more-text" href="">
+                                Подробнее
+                                <img src="./src/images/button-arrow.png" alt="">
+                            </a>
+                        </button>
+                    </div>
+                    <div class="card">
+                        <img src="./src/images/news/card-1.png" alt="">
+                        <p class="card-text">
+                            05.03.2022
+                        </p>
+                        <p class="news-info">
+                            05 марта 2022 с 17:00 до 23:00 на сети <br>
+                            интернет будут проводиться планово- <br>
+                            профилактические работы.
+                        </p>
+                        <button class="btn-more">
+                            <a class="more-text" href="">
+                                Подробнее
+                                <img src="./src/images/button-arrow.png" alt="">
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <button class="header-btn btn-center btn-news">
+                    <a class="btn" href="">
+                        Все новости
+                    </a>
+                </button>
+            </div>
+        </div>
+    </section>
 
-    </footer>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            keyboard: {
-                enabled: true,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <div class="footer__content-createx">
+                <a class="logo" href="">
+                    <svg width="167" height="64" viewBox="0 0 167 64" fill="none" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path d="M0 0H167V64H0V0Z" fill="url(#pattern0)"/>
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_24_581" transform="scale(0.00598802 0.015625)"/>
+                            </pattern>
+                            <image id="image0_24_581" width="167" height="64"
+                                   xlink:href="data:image/png;base64,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"/>
+                        </defs>
+                    </svg>
+                </a>
+                <p class="footer__content-descr">
+                    Createx Online School is a leader in online studying. <br>
+                    We have lots of courses and programs from the main <br>
+                    market experts. We provide relevant approaches <br>
+                    to online learning, internships and employment in the <br>
+                    largest companies in the country.
+                </p>
+
+            </div>
+            <ul class="footer__content-map">
+                <li class="footer__content-first">SITE MAP</li>
+                <li class="footer__content-item">About Us</li>
+                <li class="footer__content-item">Courses</li>
+                <li class="footer__content-item">Events</li>
+                <li class="footer__content-item">Blog</li>
+                <li class="footer__content-item">Contacts</li>
+            </ul>
+            <ul class="footer__content-map">
+                <li class="footer__content-first">COURSES</li>
+                <li class="footer__content-item">Marketing</li>
+                <li class="footer__content-item">Management</li>
+                <li class="footer__content-item">HR & Recruting</li>
+                <li class="footer__content-item">Design</li>
+                <li class="footer__content-item">Development</li>
+            </ul>
+            <div class="footer__content-contact">
+                <p class="footer__content-first">CONTACT US</p>
+                <p class="footer__content-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.66683 1.94857C5.11454 1.94857 4.66683 2.39628 4.66683 2.94857V13.0527C4.66683 13.605 5.11454 14.0527 5.66683 14.0527H10.3335C10.8858 14.0527 11.3335 13.605 11.3335 13.0527V2.94857C11.3335 2.39628 10.8858 1.94857 10.3335 1.94857H10.2779L10.1155 2.3382C10.012 2.58661 9.76928 2.74842 9.50016 2.74842H6.50016C6.23105 2.74842 5.98832 2.58661 5.8848 2.3382L5.72242 1.94857H5.66683ZM3.3335 2.94857C3.3335 1.6599 4.37817 0.615234 5.66683 0.615234H10.3335C11.6222 0.615234 12.6668 1.6599 12.6668 2.94857V13.0527C12.6668 14.3414 11.6222 15.3861 10.3335 15.3861H5.66683C4.37816 15.3861 3.3335 14.3414 3.3335 13.0527V2.94857Z" fill="white"/>
+                    </svg>
+                    <a class="footer__content-tel" href="tel:996500326320">(405) 555-0128</a>
+                </p>
+                <p class="footer__content-item">
+                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.1668 9.99935V2.66602C15.1668 1.56145 14.2714 0.666016 13.1668 0.666016L2.83349 0.666026C1.72893 0.666027 0.833496 1.56146 0.833496 2.66603V9.99934C0.833496 11.1039 1.72893 11.9993 2.8335 11.9993L13.1668 11.9993C14.2714 11.9993 15.1668 11.1039 15.1668 9.99935ZM13.8335 4.17232V9.99935C13.8335 10.3675 13.535 10.666 13.1668 10.666L2.8335 10.666C2.46531 10.666 2.16683 10.3675 2.16683 9.99934L2.16683 4.17223L6.87561 7.3742C7.55433 7.83573 8.44613 7.83573 9.12485 7.3742L13.8335 4.17232ZM13.8259 2.56509C13.7773 2.24479 13.5007 1.99935 13.1668 1.99935L2.83349 1.99936C2.49965 1.99936 2.22311 2.24476 2.17443 2.56501L7.62535 6.27164C7.85159 6.42548 8.14886 6.42548 8.3751 6.27164L13.8259 2.56509Z" fill="white"/>
+                    </svg>
+                    hello@createx.com
+                </p>
+            </div>
+            <div class="footer__content-sign">
+                <p class="footer__content-first">
+                    SIGN UP TO OUR NEWSLETTER
+                </p>
+                <form>
+                    <input class="footer__content-input" type="email" placeholder="Email address">
+                    <button class="footer__content-btn"><svg width="12" height="8" viewBox="0 0 12 8" fill="none"
+
+
+                                                             xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.86193 0.529247C8.12228 0.268897 8.54439 0.268897 8.80474 0.529247L11.8047 3.52925C12.0651 3.7896 12.0651 4.21171 11.8047 4.47206L8.80474 7.47206C8.54439 7.73241 8.12228 7.73241 7.86193 7.47206C7.60158 7.21171 7.60158 6.7896 7.86193 6.52925L9.72386 4.66732H0.666667C0.298477 4.66732 0 4.36884 0 4.00065C0 3.63246 0.298477 3.33398 0.666667 3.33398H9.72386L7.86193 1.47206C7.60158 1.21171 7.60158 0.789596 7.86193 0.529247Z" fill="white"/>
+                    </svg></button>
+                </form>
+                <p class="footer__content-last">*Subscribe to our newsletter to receive communications and early
+                    <br> updates from Createx SEO Agency.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="overlay">
+    <div class="popup">
+        <form action="" class="popup__form popup__form_login ">
+            <h2 class="popup__title">Вход в аккаунт</h2>
+            <p class="popup__subtitle">Сможете быстро оформлять заказы, <br>
+                использовать бонусы</p>
+            <div class="popup__item">
+                <label class="popup__label" for="email">Email</label>
+                <input class="popup__field" id="email" type="email" placeholder="Введите email">
+            </div>
+            <div class="popup__item">
+                <label class="popup__label" for="password">Пароль</label>
+                <input class="popup__field" id="password" type="password" placeholder="Введите пароль">
+            </div>
+            <button class="header-btn5 button_popup" type="submit">Войти</button>
+            <p class="popup__info">
+                Продолжая, вы соглашаетесь со сбором и <br>
+                обработкой персональных данных и <br>
+                пользовательским соглашением
+            </p>
+        </form>
+        <form action="" class="popup__form popup__form_signup">
+            <h2 class="popup__title">Регистрация</h2>
+            <p class="popup__subtitle">Сможете быстро оформлять заказы, <br>
+                использовать бонусы</p>
+            <div class="popup__item">
+                <label class="popup__label" for="email">Email</label>
+                <input class="popup__field" type="email" placeholder="Введите email">
+            </div>
+            <div class="popup__item">
+                <label class="popup__label" for="password">Пароль</label>
+                <input class="popup__field" type="password" placeholder="Введите пароль">
+            </div>
+            <button class="header-btn5 button_popup" type="submit">Войти</button>
+            <p class="popup__info">
+                Продолжая, вы соглашаетесь со сбором и <br>
+                обработкой персональных данных и <br>
+                пользовательским соглашением
+            </p>
+        </form>
+        <span class="popup__close">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_236_29161)">
+<path fill-rule="evenodd" clip-rule="evenodd"
+      d="M1.77617 0.304743C1.36985 -0.101581 0.711067 -0.101581 0.304743 0.304743C-0.101581 0.711067 -0.101581 1.36985 0.304743 1.77617L14.5286 16L0.304752 30.2238C-0.101572 30.6302 -0.101572 31.2889 0.304752 31.6953C0.711076 32.1016 1.36986 32.1016 1.77618 31.6953L16 17.4714L30.2238 31.6953C30.6301 32.1016 31.2889 32.1016 31.6953 31.6953C32.1016 31.2889 32.1016 30.6301 31.6953 30.2238L17.4714 16L31.6953 1.77618C32.1016 1.36985 32.1016 0.71107 31.6953 0.304746C31.2889 -0.101578 30.6302 -0.101578 30.2238 0.304746L16 14.5286L1.77617 0.304743Z"
+      fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_236_29161">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+        </span>
+    </div>
+</div>
+<div class="burger">
+    <span class="burger__line"></span>
+</div>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        keyboard: {
+            enabled: true,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+<script src="src/js/jquery-3.6.0.min.js "></script>
+<script src="./src/js/main.js"></script>
 </body>
 </html>
